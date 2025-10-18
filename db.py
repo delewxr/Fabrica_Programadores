@@ -6,6 +6,6 @@ def conexao_banco():#
         user="root",
         password="",
         database="aula"
-)
+    )
     return conexao
 

@@ -1,10 +1,10 @@
 from db import conexao_banco 
 
-nome = "Rodrgio De Le Martins"
-telefone = "11999999999" 
-email = "Rodrigoemiguel@icloud.com"
-data_nascimento = "2000-01-01" 
-senha = "123456"
+nome = input("Digite o nome do cliente: ")
+telefone = input("Digite o telefone do cliente: ")
+email = input("Digite o e-mail do cliente: ")
+data_nascimento =  input("Digite a data de nascimento do cliente (YYYY-MM-DD): ")
+senha = input("Digite a senha do cliente: ")
 
 conexao = conexao_banco()
 
